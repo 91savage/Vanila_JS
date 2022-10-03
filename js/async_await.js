@@ -1,8 +1,8 @@
 function a() {
     fetch('https://jsonplaceholder.typicode.com/posts/1')
-        .then(response => response.json())
-        .then(json => {
-            console.log(json);
+        .then(b => b.json())
+        .then(c => {
+            console.log(c);
         });
 }
 
